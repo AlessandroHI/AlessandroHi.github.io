@@ -1,0 +1,87 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Brush Script MT;
+    font-size: 30px;
+}
+
+a{
+    font-family: Courier New;
+    font-weight:bold;
+    font-size: 25px;
+    
+}
+
+h6 {
+    font-family: Courier New;
+    font-weight:bold;
+    font-size: 30px
+    
+}
+
+p{
+    font-family: Courier New;
+    font-weight:bold;
+    font-size: 20px
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 250px;
+    
+}
+
+.in-flex:first-child{
+    margin: 60px;
+    flex:2;
+    padding: 30px;
+    background-color: #00426a;
+    margin: 20px;
+    margin-bottom: 20px;
+
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.in-about{
+    flex: 1;
+    min-width: 250px;
+}
+
+.porta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.in-flex2{
+    flex: 1;
+    min-width: 250px;
+    
+}
+.in-flex2:first-child{
+    margin: 60px;
+    flex:2;
+    padding: 30px;
+    background-color: #00426a;
+    margin: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
